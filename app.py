@@ -3,13 +3,12 @@ from flask_cors import CORS
 import psycopg2
 
 app = Flask(__name__)
-CORS(app)  # Permitir requisições de outros domínios (frontend)
+CORS(app)
 
-# Configuração do banco de dados
 DB_CONFIG = {
     'dbname': 'rpg_db',
     'user': 'usuario',
-    'password': 'senha123',
+    'password': 'senha',
     'host': 'localhost',
     'port': 5432
 }
@@ -18,7 +17,6 @@ DB_CONFIG = {
 def index():
     return render_template('index.html')
 
-# Rota para buscar aventureiros
 @app.route('/aventureiros', methods=['GET'])
 def get_aventureiros():
     try:
