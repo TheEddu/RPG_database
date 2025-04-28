@@ -1,8 +1,8 @@
 # Database RPG
 
-Quando comecei a estudar banco de dados, tive certa dificuldade, os exemplos não eram do meu gosto, mas aprendi que o conceito é o mesmo, então, decidi praticar com temas que são mais interessantes para mim, e que compreendo melhor, então, decidi praticar com um banco de dados baseado em RPG. 
-Este é um projeto de um sistema para "gerenciar" aventureiros, classes e guildas em um RPG. Ele utiliza **Flask** como framework backend, **PostgreSQL** como banco de dados e **Tailwind CSS** para estilização do frontend. O sistema exibe uma lista de aventureiros com detalhes e imagens, além de permitir a visualização de informações detalhadas de cada aventureiro.
-
+Quando comecei a estudar banco de dados, tive certa dificuldade, os exemplos não eram do meu gosto, mas aprendi que o conceito é o mesmo, então, decidi praticar com temas que são mais interessantes para mim, e que compreendo melhor, então, decidi praticar com um banco de dados baseado em RPG.  
+Este é um projeto de um sistema para "gerenciar" aventureiros, classes e guildas em um RPG. Ele utiliza **Flask** como framework backend, **PostgreSQL** como banco de dados e **Tailwind CSS** para estilização do frontend. O sistema exibe uma lista de aventureiros com detalhes e imagens, além de permitir a visualização de informações detalhadas de cada aventureiro.  
+Esse mesmo modleo de sistema pode ser aplicado a **sistemas de inventário e controle de ativos** ou a **plataformas de gerenciamento de tarefas ou projetos**, por exemplo, pois todos tem a funcionalidade de "ler" um banco de dados e exibir na tela de forma agradavel ao usuário.
 ---
 
 ## Funcionalidades
